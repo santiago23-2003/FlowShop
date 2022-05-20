@@ -1,0 +1,20 @@
+/*------------GENERAL STYLE----------*/
+*{
+    outline: 1px solid red;
+}
+/*---------------MENU DE NAVEGACION---------------*/
+/*---------STYLE IMG-----------*/
+
+.navbar-brand > img{
+    width: 100px;
+}
+
+/*-------------ICONOS-------------*/
+
+/*-------------IMAGENES HOME OPACIDAD-------------*/
+.col-md-6 > img{
+    opacity: 0.5;
+}
+
+
+
