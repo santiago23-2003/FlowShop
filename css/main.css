@@ -1,20 +1,71 @@
 /*------------GENERAL STYLE----------*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
 *{
-    outline: 1px solid red;
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 1.1rem;
 }
-/*---------------MENU DE NAVEGACION---------------*/
+
 /*---------STYLE IMG-----------*/
 
 .navbar-brand > img{
     width: 100px;
 }
 
-/*-------------ICONOS-------------*/
+.logo > img {
+    width: 100px;
+}
 
 /*-------------IMAGENES HOME OPACIDAD-------------*/
 .col-md-6 > img{
     opacity: 0.5;
 }
 
+/*-------------HOMBRE-------------*/
+.hombre{
+    position: relative;
+}
 
+.b-hombre {
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
 
+/*-------------MUJER-------------*/
+.mujer{
+    position: relative;
+}
+
+.b-mujer {
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/*-------------------TITULO DE PRODUCTOS--------------------*/
+.contenedor{
+    height: 100px;
+}
+
+/*-------------CARROUSEL-------------*/
+.slide img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+/*-------------PRODUCTOS-------------*/
+
+.precio {
+    height: 4vh;
+} 
+
+.buscador {
+    width: 50%;
+}
